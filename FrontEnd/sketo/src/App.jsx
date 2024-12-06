@@ -3,6 +3,9 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import CardsSection from "./components/CardsSection";
 import Cards from "./components/Card";
+import BusinessBootcamps from "./components/BootcampCard";
+import DefaultCard from "./components/default";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -11,6 +14,9 @@ const App = () => {
       <HeroSection />
       {/* <CardsSection /> */}
       <Cards />
+      <BusinessBootcamps />
+      {/* <DefaultCard/> */}
+      <Footer />
     </div>
   );
 };

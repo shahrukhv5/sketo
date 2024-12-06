@@ -3,7 +3,7 @@ import React from "react";
 const Card = ({ title, description, image }) => {
   return (
     <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center text-center transition-transform transform hover:scale-105">
-      <img src={image} alt={title} className="w-20 h-20 mb-4" />
+      {/* <img src={image} alt={title} className="w-20 h-20 mb-4" /> */}
       <h2 className="text-xl font-bold mb-2">{title}</h2>
       <p className="text-gray-600 text-sm mb-4">{description}</p>
       <button className="text-blue-500 font-medium hover:underline flex items-center">
